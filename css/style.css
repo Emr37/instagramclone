@@ -1,9 +1,27 @@
+body {
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+nav {
+  background-color: #fff;
+  height: 54px;
+}
+
+nav .logo {
+  margin-left: 192px;
+}
+
+
 ::placeholder{
   text-align: center;
   font-size: 14px;
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background-image:url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+
 }
 
 input.empty {
